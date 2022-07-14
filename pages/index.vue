@@ -1,3 +1,7 @@
 <template>
-    My First Time
+    <NuxtLayout name="dashboard">
+        <h4>
+            My First Time
+        </h4>
+    </NuxtLayout>
 </template>
