@@ -1,10 +1,8 @@
 <script setup lang="ts">
-const { t } = useLang();
-
-// meta
 definePageMeta({
-    layout: 'page'
+  layout: 'page',
 })
 </script>
 <template>
+    aaaa
 </template>
