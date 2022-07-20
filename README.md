@@ -1,35 +1,43 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 분석
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+[nuxt 3 공식문서](https://v3.nuxtjs.org)
 
-## Setup
+## 설정
 
-Make sure to install the dependencies:
+패키지 설치:
 
 ```bash
 # yarn
 yarn install
 
-# npm
+# npm (Vue Forg 이벤트에서 Vue 창시자 Evan You 가 선호하는 방식)
 npm install
 
 # pnpm
 pnpm install --shamefully-hoist
 ```
 
-## Development Server
+## 개발서버
 
-Start the development server on http://localhost:3000
+개발서버 시작 http://localhost:3000
 
 ```bash
+# yarn
+yarn dev
+
+# npm
 npm run dev
 ```
 
-## Production
+## 제품
 
-Build the application for production:
+프로젝트 빌드
 
 ```bash
+#yarn
+yarn build
+
+# npm
 npm run build
 ```
 
