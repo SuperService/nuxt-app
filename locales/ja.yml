@@ -1,0 +1,45 @@
+components:
+  language_switcher:
+    change_language: 言語を変えてください
+  theme_switcher:
+    theme: テーマ
+    change_theme: テーマを変えてください
+pages:
+  index:
+    title: フロントエンド,素晴らしい,スターター
+  blank:
+    nav: 空白
+    title: 空白ページ
+    just_blank_page_with_title: 空白ページのみにタイトル
+  test:
+    nav: テスト
+    title: テスト
+    counter: カウンター
+    increment: 増加
+    decrement: 減少
+    reset: リセット
+    identity: 識別
+    full_name: 全名
+  about:
+    nav: このサイトについて
+    title: このサイトについて
+  setting:
+    nav: 設定
+    title: 設定
+    sections:
+      validate_username:
+        title: githubプロファイルを検証する
+        description: githubユーザー名を入力し、ボタンをクリックして検証します。
+        footer: 詳細については
+        footer_button: 検証
+        footer_link: github users api
+  dashboard:
+    nav: ダッシュボード
+    title: ダッシュボード
+    index:
+      nav: ホーム
+      title: ホーム
+banners:
+  welcome: こんにちは, %{app_name} へようこそ!
+others:
+  learn_more: 続きを読む

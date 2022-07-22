@@ -6,7 +6,7 @@ components:
     change_theme: change theme
 pages:
   index:
-    title: nuxt 3,awesome,starter
+    title: front,awesome,starter
   blank:
     nav: blank
     title: blank page

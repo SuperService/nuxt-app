@@ -10,7 +10,7 @@
 # yarn
 yarn install
 
-# npm (Vue Forg 이벤트에서 Vue 창시자 Evan You 가 선호하는 방식)
+# npm
 npm install
 
 # pnpm

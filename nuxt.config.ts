@@ -43,6 +43,7 @@ export default defineNuxtConfig({
         'nuxt-windicss',
         '@intlify/nuxt3',
         'unplugin-icons/nuxt',
+        '@pinia/nuxt',
     ],
     
     // auto import components
