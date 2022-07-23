@@ -7,6 +7,18 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.5"
+    "@headlessui/vue": "1.5.0",
+    "@iconify/json": "^2.1.61",
+    "@intlify/nuxt3": "^0.2.3",
+    "nuxt": "3.0.0-rc.5",
+    "nuxt-windicss": "2.2.8",
+    "sass": "1.49.9",
+    "sass-loader": "^12.4.0",
+    "unplugin-icons": "0.14.3",
+    "unplugin-vue-components": "0.19.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.3.0",
+    "pinia": "^2.0.16"
   }
 }
