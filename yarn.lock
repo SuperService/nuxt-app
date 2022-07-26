@@ -293,7 +293,7 @@
   resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.5.0.tgz#8cd4877d3d344e482073a04ae8e3b7f987bb267c"
   integrity sha512-jAp6XYpqdEv32xhszaj5ejvjaX5qhu20sCbxu7lplePEfZL+4ffabivJBBTZAiPWczqAXmnZWNWG5DOyqjRa4w==
 
-"@hotjar/browser@^1.0.6":
+"@hotjar/browser@^1.0.3":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@hotjar/browser/-/browser-1.0.6.tgz#5e1c9a2b0c7c21d65acb741b76c39ed81eaa4e5f"
   integrity sha512-yq8pFrCk/pGe1LeI9kgd4NZNI3C8eQlck+ISmWnL3T8RtN/YYEmzDFEZ1AFZ9GGAbxyxG6xUdaL3/S7sOSqeCQ==
@@ -462,6 +462,13 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
+
+"@kippie-bv/nuxt-hotjar@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@kippie-bv/nuxt-hotjar/-/nuxt-hotjar-1.1.4.tgz#19b04809c5f725a21d2194308b8a748300afc7f9"
+  integrity sha512-5bvfM2QdGUwyZyBjZVJyzF/pBRiv6CYpabPH6qNUM2NalhydyxXFdLISYf5OkcdrGd9TaGYcoy8+X1tW4NHLrQ==
+  dependencies:
+    "@hotjar/browser" "^1.0.3"
 
 "@mapbox/node-pre-gyp@^1.0.5":
   version "1.0.9"

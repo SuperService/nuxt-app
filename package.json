@@ -18,7 +18,7 @@
     "unplugin-vue-components": "0.19.5"
   },
   "dependencies": {
-    "@hotjar/browser": "^1.0.6",
+    "@kippie-bv/nuxt-hotjar": "^1.1.4",
     "@pinia/nuxt": "^0.3.0",
     "pinia": "^2.0.16"
   }

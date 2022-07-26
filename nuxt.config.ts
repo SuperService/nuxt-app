@@ -7,17 +7,17 @@ export default defineNuxtConfig({
     // app
     app: {
         head: {
-        title: 'Nuxt 3 Awesome Starter',
-        titleTemplate: '%s - Nuxt 3 Awesome Starter',
-        meta: [
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            {
-            hid: 'description',
-            name: 'description',
-            content: 'Nuxt 3 Awesome Starter',
-            },
-        ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+          title: 'Nuxt 3 Awesome Starter',
+          titleTemplate: '%s - Nuxt 3 Awesome Starter',
+          meta: [
+              { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+              {
+              hid: 'description',
+              name: 'description',
+              content: 'Nuxt 3 Awesome Starter',
+              },
+          ],
+          link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
         },
     },
 
@@ -44,7 +44,15 @@ export default defineNuxtConfig({
         '@intlify/nuxt3',
         'unplugin-icons/nuxt',
         '@pinia/nuxt',
+        '@kippie-bv/nuxt-hotjar'
     ],
+
+    hotjar: {
+      id: "3081703",
+      version: 6, // default: 6
+      trackChangesManually: true, //default: false
+      trackFullPath: true //default: false (Only when trackChangesManually is enabled)
+    },
     
     // auto import components
     components: true,
