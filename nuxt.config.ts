@@ -43,17 +43,8 @@ export default defineNuxtConfig({
         'nuxt-windicss',
         '@intlify/nuxt3',
         'unplugin-icons/nuxt',
-        '@pinia/nuxt',
-        '@kippie-bv/nuxt-hotjar'
+        '@pinia/nuxt'
     ],
-
-    hotjar: {
-      id: "3081703",
-      version: 6, // default: 6
-      trackChangesManually: true, //default: false
-      trackFullPath: true //default: false (Only when trackChangesManually is enabled)
-    },
-    
     // auto import components
     components: true,
 
