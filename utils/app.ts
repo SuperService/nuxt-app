@@ -1,5 +1,7 @@
 import { ThemeManager } from "./theme";
 import { LanguageManager } from "./lang";
+import Hotjar from '@hotjar/browser';
+
 export interface IApp {
     name: string,
     author: {
@@ -19,6 +21,11 @@ export function AppSetup() {
     }
 
     useState('app', () => app)
+
+    const siteId = 3081703;
+    const hotjarVersion = 6;
+
+    Hotjar.init(siteId, hotjarVersion);
 
     // use theme manager
     const themeManager = ThemeManager();
